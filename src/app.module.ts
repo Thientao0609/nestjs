@@ -4,6 +4,7 @@ import { AppService } from './app.service';
 import { AuthModule } from './auth/auth.module';
 import { AdminModule } from './admin/admin.module';
 import { NhanvienModule } from './nhanvien/nhanvien.module';
+import { AdminModule } from './admin/admin.module';
 
 @Module({
   imports: [AuthModule, AdminModule, NhanvienModule],
